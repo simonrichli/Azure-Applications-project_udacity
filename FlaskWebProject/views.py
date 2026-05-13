@@ -74,6 +74,11 @@ def login():
             )
             return redirect(url_for('login'))
         login_user(user, remember=form.remember_me.data)
+        app.logger.info(
+        "Microsoft login SUCCESSFULL | info=%s | ip=%s",
+        request.args.get("info"),
+        request.remote_addr
+        )
         next_page = request.args.get('next')
         if not next_page or url_parse(next_page).netloc != '':
             next_page = url_for('home')
