@@ -27,7 +27,7 @@
 	• "Azure Services Web Application".
 
 ###Justification
-	• Azure Services Web Application suits better because I wanted to develope, deploy and use the app fast and easy. Due to integrating GitHub for automated deployment as well as authentification services it is the choice.	Also important I was aiming for low costs and low or no effort on managing environment for scalability and availability.
+	• Azure Services Web Application suits better because I wanted to develope, deploy and use the app fast and easy. Due to integrating the required services like GitHub for automated deployment, Blobstorage, SQL Database as well as authentification services it is the choice.	Also important I was aiming for low costs and low or no effort on managing environment for scalability and availability.
 
 ###Assess app changes that would change your decision.
 	• Reasons to change from "Web App" to "VM" may be due to increase user amount, need for higher frequency of new and more complex app features and therefore
